@@ -1,5 +1,7 @@
-## Hi there 👋
-
+# Yo yo yo! ScodeHub here! This page is also my main page and my github page! 👋
+- Welcome! ScodeHub is a script provider where it automaticly puts scripts in what games u enter!
+## Tutorial on how to use ScodeHub
+- Just load this code and it will find which game ur in and do the work for you!
 <!--
 **scodehub/scodehub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
