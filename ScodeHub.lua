@@ -1,9 +1,3 @@
-local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehub/scodehub/refs/heads/main/GameList.lua"))()
-
-for PlaceID, Execute in pairs(Games) do
-    if PlaceID == game.PlaceId then
-        loadstring(game:HttpGet(Execute))()
-
 local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
         Title = "Scode Hub",
@@ -12,6 +6,12 @@ local CoreGui = game:GetService("StarterGui")
         Duration = 7,
         Callback = AllowRunServiceBind,
     })
+
+local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehub/scodehub/refs/heads/main/GameList.lua"))()
+
+for PlaceID, Execute in pairs(Games) do
+    if PlaceID == game.PlaceId then
+        loadstring(game:HttpGet(Execute))()
     end
 end
 
