@@ -5,3 +5,12 @@ for PlaceID, Execute in pairs(Games) do
         loadstring(game:HttpGet(Execute))()
     end
 end
+
+local CoreGui = game:GetService("StarterGui")
+    CoreGui:SetCore("SendNotification", {
+        Title = "Scode Hub",
+        Text = "Successfully Loaded",
+        Icon = "rbxthumb://type=Asset&id=19003728890&w=150&h=150",
+        Duration = 7,
+        Callback = AllowRunServiceBind,
+    })
