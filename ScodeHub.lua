@@ -3,8 +3,6 @@ local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehu
 for PlaceID, Execute in pairs(Games) do
     if PlaceID == game.PlaceId then
         loadstring(game:HttpGet(Execute))()
-    end
-end
 
 local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
@@ -14,3 +12,6 @@ local CoreGui = game:GetService("StarterGui")
         Duration = 7,
         Callback = AllowRunServiceBind,
     })
+    end
+end
+
