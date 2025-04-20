@@ -3,6 +3,8 @@
 ## Tutorial on how to use ScodeHub
 - Just load this code and it will find which game ur in and do the work for you!
 - `loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehub/scodehub/refs/heads/main/ScodeHub.lua", true))()`
+## Tutorial on my other scripts
+- `loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehub/scodehub/refs/heads/main/admin", true))()` | Nameless Admin | Universal
 <!--
 **scodehub/scodehub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
