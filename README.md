@@ -5,6 +5,7 @@
 - `loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehub/scodehub/refs/heads/main/ScodeHub.lua", true))()`
 ## Tutorial on my other scripts
 - `loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehub/scodehub/refs/heads/main/admin", true))()` | Nameless Admin | Universal
+`loadstring(game:HttpGet("https://raw.githubusercontent.com/scodehub/scodehub/refs/heads/main/deadrailsbondsauto", true))()` | Auto Bond | Dead Rails
 <!--
 **scodehub/scodehub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
